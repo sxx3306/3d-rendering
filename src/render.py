@@ -27,7 +27,15 @@ class Game:
         new_x = (self.screen.get_width() / 2) + xp
         new_y = (self.screen.get_height() / 2) + yp
         return new_x, new_y
-
+    def rotate_x(self, angle):
+        return
+    
+    def rotate_y(self, angle):
+        return 
+    
+    def rotate_z(self, angle):
+        return
+    
     def run(self):
         clock = pygame.time.Clock()
         running = True
